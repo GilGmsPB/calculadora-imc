@@ -39,7 +39,7 @@ while True:
     #   Resultado
     print(f"\nNome: {nome}\nIdade: {idade} anos\nPeso: {peso} quilos\nAltura {altura} metros\nIMC: {BMI:.2f}\nCondição de Saúde: {health_condition}")
 
-    repeat = input("\nDeseja calcular outro IMC? (S/N)")
+    repeat = input("\nDeseja calcular outro IMC (S/N)?")
     if repeat == "n":
         print("\nObrigado por usar a Calculadora de IMC! Até mais! 👋")
         break #sai do loop se o usuário digitar "n"
