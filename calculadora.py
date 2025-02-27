@@ -26,9 +26,14 @@ print ("=" * 40)
 #   Solicitação de Dados do Usuário
 while True:
     nome = input("\nPor favor, digite seu nome: ")
-    idade = int(input("Agora digite sua idade: "))
-    peso = float(input("Agora digite seu peso (em Kg): ").replace(",", "."))
-    altura = float(input("Digite sua altura em metros (ex: 1.75): ").replace(",", ".")) 
+    
+    try:
+        idade = int(input("Agora digite sua idade: "))
+        peso = float(input("Agora digite seu peso (em Kg): ").replace(",", "."))
+        altura = float(input("Digite sua altura em metros (ex: 1.75): ").replace(",", "."))
+    except ValueError:
+        print("\n❌ Entrada inválida! Certifique-se de digitar números corretamente.")
+        continue  # Reinicia o loop caso ocorra erro na conversão
 
     #   Cálculo BMI(BODY MASS INDEX)
     BMI = calculate_BMI(peso, altura)
@@ -39,7 +44,14 @@ while True:
     #   Resultado
     print(f"\nNome: {nome}\nIdade: {idade} anos\nPeso: {peso} quilos\nAltura {altura} metros\nIMC: {BMI:.2f}\nCondição de Saúde: {health_condition}")
 
-    repeat = input("\nDeseja calcular outro IMC (S/N)?")
-    if repeat == "n":
-        print("\nObrigado por usar a Calculadora de IMC! Até mais! 👋")
-        break #sai do loop se o usuário digitar "n"
+    while True:
+        repeat = input("Deseja continuar? [S/N]: ").strip().upper()
+        
+        if repeat == "N":
+            print("\nObrigado por usar a Calculadora de IMC! Até mais! 👋")
+            exit()  # Finaliza o programa completamente
+        
+        if repeat == "S":
+            break  # Sai do loop interno e volta ao início do programa
+        
+        print("❌ Opção inválida! Digite apenas 'S' ou 'N'.")
