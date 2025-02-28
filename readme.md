@@ -1,7 +1,8 @@
-<h2 align="center">🧮 Calculadora de IMC</h2><h3 align="center">Descubra seu Índice de Massa Corporal 👀</h3>
+<h2 align="center"> Calculadora de IMC</h2><h3 align="center">Descubra seu Índice de Massa Corporal </h3>
 <br><br>
 
-![Banner com referência a Python](https://github.com/user-attachments/assets/fba6175c-e2c8-40de-9507-1c58631229b4)
+![Banner com referência a Python](https://github.com/user-attachments/assets/a6a57363-27ef-4c50-b5fb-0544859e756d)
+
 
 <div align="center">
 
@@ -17,9 +18,9 @@
 
 <br>
 
-&nbsp;&nbsp;&nbsp;&nbsp;A **Calculadora de IMC** é um programa simples em **Python** que permite calcular o Índice de Massa Corporal (IMC) de uma pessoa com base no peso e na altura fornecidos pelo usuário.  
+A **Calculadora de IMC** é um programa simples em **Python** que permite calcular o Índice de Massa Corporal (IMC) de uma pessoa com base no peso e na altura fornecidos pelo usuário.  
 
-&nbsp;&nbsp;&nbsp;&nbsp;O IMC é um indicador utilizado para avaliar se uma pessoa está abaixo, dentro ou acima do peso ideal.  
+O IMC é um indicador utilizado para avaliar se uma pessoa está abaixo, dentro ou acima do peso ideal.  
 
 ---
 
@@ -46,7 +47,7 @@
 ---
 
 ## 📌 Exemplo de saída
-
+```
 Por favor, digite seu nome: gil
 Agora digite sua idade: 31
 Agora digite seu peso (em Kg): 65
@@ -62,11 +63,56 @@ Condição de Saúde: Peso saudável
 Deseja calcular outro IMC? (S/N) n
 
 Obrigado por usar a Calculadora de IMC! Até mais! 👋
+```
 
 ---
 
-## 🛠 Tecnologias utilizadas  
+## 🛠 Tecnologias utilizadas:
 
 - 🐍 **Python** → Linguagem principal usada no projeto.  
 - 🔄 **Git** → Controle de versão para gerenciar o código.  
-- 💻 **GitHub** → Plataforma para armazenar e compartilhar o código.  
+- 💻 **GitHub** → Plataforma para armazenar e compartilhar o código.
+
+---
+
+## 📝 Melhorias futuras
+
+✅ Criar versão gráfica usando Tkinter
+
+✅ Permitir salvar o histórico dos IMCs
+
+✅ Criar uma API para uso online
+
+✅ Além de mostrar o resultado do IMC, informe a faixa de classificação com cores
+
+---
+
+## 📜 Licença: Este projeto está sob a licença MIT
+
+✅ Use o código livremente.
+
+✅ Modifique e crie versões derivadas.
+
+✅ Compartilhe o código sem restrições.
+
+🔗 [Clique aqui para ver a licença completa](./LICENSE)
+
+---
+
+## 📬 Contato:
+
+[![Email](https://img.shields.io/badge/Email-Contate%20meu%20Gmail-red?style=for-the-badge&logo=gmail)](mailto:gilvanderlygomes@gmail.com)
+
+
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-black?style=for-the-badge&logo=github)](https://github.com/GilGmsPB)
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Perfil-blue?style=for-the-badge&logo=linkedin)]([https://www.linkedin.com/in/seu-usuario/](https://www.linkedin.com/in/gilvanderly-gomes-2325622a8/))
+
+<br><br>
+
+<h3 align="center">Muito **obrigado** por conferir este projeto! 💙</h3>
+
+<br><br>
+
+![Se gostou do projeto, deixe uma estrela ⭐ no repositório!](https://github.com/user-attachments/assets/837e5465-c31c-4544-a109-18e8686036e9)
+
