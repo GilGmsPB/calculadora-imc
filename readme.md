@@ -114,5 +114,6 @@ Obrigado por usar a Calculadora de IMC! Até mais! 👋
 
 <br><br>
 
-![Se gostou do projeto, deixe uma estrela ⭐ no repositório!](https://github.com/user-attachments/assets/837e5465-c31c-4544-a109-18e8686036e9)
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/837e5465-c31c-4544-a109-18e8686036e9" alt="Se gostou do projeto, deixe uma estrela ⭐ no repositório!">
+</p>
