@@ -1,4 +1,4 @@
-<h2 align="center"> Calculadora de IMC</h2><h3 align="center">Descubra seu Índice de Massa Corporal </h3>
+se<h2 align="center"> Calculadora de IMC</h2><h3 align="center">Descubra seu Índice de Massa Corporal </h3>
 <br><br>
 
 ![Banner com referência a Python](https://github.com/user-attachments/assets/a6a57363-27ef-4c50-b5fb-0544859e756d)
@@ -110,7 +110,7 @@ Obrigado por usar a Calculadora de IMC! Até mais! 👋
 
 <br><br>
 
-<h3 align="center">Muito **obrigado** por conferir este projeto! 💙</h3>
+<h3 align="center">Muito <strong>obrigado</strong> por conferir este projeto! 💙</h3>
 
 <br><br>
 
